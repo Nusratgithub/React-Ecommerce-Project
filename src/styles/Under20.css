@@ -1,0 +1,165 @@
+.u20Hold {
+    top: 5rem;
+    background-color: #f4f3f0;
+
+}
+
+.u20Pic {
+    height: 30vh;
+    object-fit: cover;
+}
+
+.w100vw {
+    width: 100vw;
+    height: 0.6rem;
+
+}
+
+.u20Heading {
+    font-family: Arapey, Helvetica, Arial, sans-serif;
+    font-weight: 00;
+    font-style: italic;
+    font-size: 3rem;
+    /* letter-spacing: -1px; */
+    line-height: 1;
+}
+
+.u20HeadingHold {
+    bottom:14rem;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.filterSortHold {
+    bottom: 13rem;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+
+.boxSh {
+    box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+    background-color: #f4f3f0;
+    width: 14rem;
+    height: 14rem;
+    bottom: 1cap;
+    justify-content: center;
+    left: 8rem;
+    z-index: 999999;
+    background: url("../assets/u20bg.png");
+    object-fit: cover;
+}
+
+/* .boxSh2 {
+    box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+    background-color: #f4f3f0;
+    top: 14rem;
+    background: url("../assets/u20bg.png");
+    object-fit: cover;
+    width: 12rem;
+    height: 14rem;
+    justify-content: center;
+    left: 22rem;
+    z-index: 999999;
+} */ 
+
+.scale {
+    transition: all 350ms ease;
+}
+
+.scale:hover {
+    transform: scale(1.08);
+}
+
+.ggg {
+    top: 30rem;
+}
+
+
+.u20img {
+    width: 22rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.u20Name {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 800;
+
+}
+
+.knmBtn {
+    background-color: transparent !important;
+    color: black !important;
+    font-weight: 400;
+    font: normal;
+    border-radius: 0;
+    bottom: 0;
+
+}
+
+
+
+
+.whi {
+    color: white !important;
+    background: #000 !important;
+
+}
+
+
+
+
+
+
+
+/* Sweep To Bottom */
+.u20Des {
+    width: 20rem;
+    transition: 400ms ease;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    opacity: 0;
+}
+
+
+.u20Des2 {
+    transform: translateY(-1rem);
+    position: relative;
+
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 400ms ease;
+    opacity: 1;
+}
+
+
+.u20Js {
+    top: 19rem;
+}
+
+
+.u20Featyres {
+    /* top: 22rem !important; */
+}
+
+.u20FeaturesHold {
+    gap: 17rem;
+    /* left: 10rem; */
+}
+
+.u20TextFeatureHold {
+    white-space: nowrap;
+    /* left: 16rem; */
+    top: -3.5rem;
+    gap: 12rem;
+
+}
+
+.u20footer {
+    top: 25rem;
+}

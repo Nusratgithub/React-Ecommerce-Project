@@ -1,0 +1,32 @@
+
+.heroDescription{
+    left: 25rem;
+    width: 43rem;
+    text-align: center;
+    top: -1rem;
+}
+
+.heroPicHold{
+    margin-top: 4rem;
+    gap: 20rem;
+    position: relative;
+    left: 12.7rem;
+    width: 85vw;
+}
+
+.heroHeadingHold{
+    position: relative;
+    left: 19rem;
+    gap: 15rem;
+    top: -5rem;
+}
+
+.heroDescHold{
+    gap: 10.8rem;
+    left: 19rem;
+    top: -4rem;
+    font-size: 17px;
+}
+
+
+
