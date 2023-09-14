@@ -24,7 +24,7 @@ const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
 
     return (
-        <div className="mx-auto container">
+        <div className="mx-auto container ">
             <div className="relative flex p-4  bg-base-200 items-center justify-between">
                 <Link
                     to="/"

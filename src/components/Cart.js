@@ -2,14 +2,9 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 import { cartActions } from '../redux-state/CartState'
 import { useDispatch } from 'react-redux'
-import cartgif from "../assets/cartGif.gif";
-import qty from "../assets/qty.png"
-
 import { MdAdd } from "react-icons/md";
 //import { GrFormSubtract } from "react-icons/gr"
 import { RiSubtractFill } from "react-icons/ri"
-import YouMayAlsoLike from './YouMayAlsoLike';
-import SPFooter from './SPFooter';
 import { Link } from 'react-router-dom';
 
 
@@ -73,16 +68,14 @@ const Cart = (props) => {
     <td className="p-3 mt-2">
     {
         <Link
-        
+        to='/payment/:id'
     >
         <button
             className='btn btn-sm'
         >Pay</button>
     </Link>                              
     }
-                    
-
-    </td>
+   </td>
   </tr>
 
 

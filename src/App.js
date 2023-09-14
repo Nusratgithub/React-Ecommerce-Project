@@ -23,8 +23,9 @@ import ForHim from './components/ForHim';
 import SimpleSlider from './components/HeroCarousel';
 import BestSellers from './components/BestSellers';
 import GiftSets from './components/GiftSets';
+// import CartTotal from './components/CartTotal';
+import Payment from './components/Payment/payment';
 import CartTotal from './components/CartTotal';
-// import MobileNav from './components/MobileNav';
 
 
 function App() {
@@ -33,7 +34,7 @@ function App() {
     <div className="App container mx-auto">
       <BrowserRouter>
 
-        <Routes >
+        <Routes>
           <Route path='/' exact element={<>   <NavBar /> <SimpleSlider/> <HeroSection />  <BsText />  {<Products />}  {/*<OurBestSellers />*/}  <Ingridients />  <JournalSection /> <FollowONIG /> <SPFooter />  </>} />
           <Route path='/:id' exact element={<> <NavBar /> <SinglePage /> </>} />
           <Route path='/bestSeller' exact element={<> <NavBar /> <BestSellers/> <Ingridients /><FollowONIG /> <SPFooter/> </>} />
@@ -45,6 +46,7 @@ function App() {
           <Route path='/under40' element={<> <NavBar /> <Under10 /> </>} />
           <Route path='/forher' element={<> <NavBar /> <ForHer /> </>} />
           <Route path='/forhim' element={<> <NavBar /> <ForHim /> </>} />
+          <Route path='/payment/:id' element={<><NavBar/> <CartTotal/> <SPFooter/> </>} />
         </Routes>
 
       </BrowserRouter>

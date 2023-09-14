@@ -91,15 +91,6 @@ img {
     top: 28.5rem !important;
     position: relative !important;
 }
-
-.paypal-button::before {
-    content: "PAY WITH PAYPAL" !important;
-}
-
-.paypal-button::after {
-    content: "PAY WITH PAYPAL" !important;
-}
-
 .urCartItem {
     top: 2rem;
     gap: 23rem !important;
@@ -117,7 +108,6 @@ img {
     box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
     background-color: white;
     border: 2px solid whitesmoke;
-    width: 70rem;
     border-radius: 15px;
 }
 
@@ -145,9 +135,6 @@ img {
     left: 18rem;
 }
 
-.paypal-button-container {
-    width: 74% !important;
-}
 
 .ctActualToatal {
     left: 10rem;
@@ -192,29 +179,6 @@ img {
     height: 20rem !important;
 }*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*  PYAPAL  BUTTON */
-
-.paypal-button.paypal-button-color-gold,
-.paypal-button-row.paypal-button-color-gold .menu-button {
-    background-color: black !important;
-}
-
-.paypal-button.paypal-button-color-gold,
-.paypal-button-row.paypal-button-color-gold .menu-button {
-    background: black !important;
-}
 
 /*  YOU MAY ALSO LIKE AUTO SCROLLING    */
 
