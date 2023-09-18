@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import Cart from './Cart';
 import CartPageFaq from './CartPageFaq';
 import EmptyCart from './EmptyCart';
-import SPFooter from './SPFooter';
+
 
 const CartHold = () => {
     const cartItems = useSelector((state) => state.cart.items);
@@ -52,9 +52,7 @@ const CartHold = () => {
     </div>
     </div>
       <CartPageFaq/>
-      <SPFooter/>
-
-               
+                 
             </>}
 
 
